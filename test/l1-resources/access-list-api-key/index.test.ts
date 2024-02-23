@@ -13,7 +13,7 @@ const propsQueryLimitProps: CfnAccessListApiKeyProps = {
   ipAddress: "203.0.113.11",
 };
 
-test.only("CfnAccessListApiKey construct should contain default properties", () => {
+test("CfnAccessListApiKey construct should contain default properties", () => {
   const mockApp = new App();
   const stack = new Stack(mockApp);
 
